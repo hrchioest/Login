@@ -17,14 +17,22 @@ body{
    
 .caja-gris{
     background: #f2f2f2;
-    padding: 15px 15px 15px 30px;
+    padding: 15px 15px 15px;
     margin-bottom: 15px;
 }
 
 .caja-green{
     background: #4caf50;
     color: white;
+      
 }
+
+.caja-green:hover
+{
+    background: #255428;
+    transition: background 1s linear; 
+}
+
 .caja-comun{
     height: 46px;
     width: 100%;
@@ -46,7 +54,4 @@ body{
     left: 5px;
 }
 
-button:hover
-{
-    background: #255428;
-}
+
