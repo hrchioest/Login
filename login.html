@@ -13,11 +13,14 @@
   
 <body>
     <form class="caja-principal" method="POST" action="https://www.google.com">
-        
-        <i class="fa fa-envelope-o" aria-hidden="true"></i><input class="caja-gris caja-comun" type="email" name="E-mail" placeholder="email" />
-        
-       <input class="caja-gris caja-comun" type="password" name="password" placeholder="password" />
-            
+       <div class="iconito">
+        <i class="fa fa-envelope-o iconito"></i>
+        <input class="caja-gris caja-comun" type="email" name="E-mail" placeholder="   email" />
+       </div>
+       <div class="iconito">
+        <i class="fa fa-key"></i>
+       <input class="caja-gris caja-comun" type="password" name="password" placeholder="   password" />
+    </div>
        <button class="caja-green caja-comun" type="submit">LOGIN</button>
        <!--Cambio de input a button funcional, agregado method=post y dirección donde va el botón-->
     </form>
