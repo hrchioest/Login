@@ -6,18 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="login.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Document</title>
 </head>
     
   
 <body>
-    <form class="caja-principal">
+    <form class="caja-principal" method="POST" action="https://www.google.com">
         
-       <input class="caja-gris caja-comun" type="email" name="E-mail" placeholder="email" />
+        <i class="fa fa-envelope-o" aria-hidden="true"></i><input class="caja-gris caja-comun" type="email" name="E-mail" placeholder="email" />
         
        <input class="caja-gris caja-comun" type="password" name="password" placeholder="password" />
             
-       <input class="caja-green caja-comun" type="submit" name="Login" value="LOGIN" />   
+       <button class="caja-green caja-comun" type="submit">LOGIN</button>
+       <!--Cambio de input a button funcional, agregado method=post y dirección donde va el botón-->
     </form>
     
 </body>

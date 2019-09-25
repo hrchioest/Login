@@ -12,6 +12,7 @@ body{
     padding: 45px;
     margin: auto;
     margin-top: 15%;
+   
 }
     
 .caja-gris{
@@ -29,5 +30,6 @@ body{
     width: 100%;
     box-sizing: border-box;
     border: none;
+    font: inherit;
 
 }
